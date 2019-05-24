@@ -9,10 +9,18 @@ h2 {
 }
 .unimportant {
   color: brown;
+  width: 220px;
+  float: left;
+  padding: 15px;
 }
 .the entire workforce {
   color: yellow;
 }
 h2 {
-  color: purple;
+  color: blue;
+}
+@media screen and (min-width: 800px) {
+  body {
+    background-color: maroon;
+  }
 }
